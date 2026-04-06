@@ -59,7 +59,7 @@ const LoginPage = ({ onLogin }: LoginPageProps) => {
         </CardHeader>
         <CardContent>
           {success && (
-            <p className="text-sm text-center mb-4 text-green-600 bg-green-50 rounded-md p-2">{success}</p>
+            <p className="text-sm text-center mb-4 text-primary bg-primary/10 rounded-md p-2">{success}</p>
           )}
 
           {isSignUp ? (
